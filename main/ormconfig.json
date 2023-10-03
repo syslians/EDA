@@ -1,0 +1,15 @@
+{
+    "type": "mongodb",
+    "url": "mongodb+srv://root:gu56417974!@cluster0.zayjva5.mongodb.net/?retryWrites=true&w=majority",
+    "host": "localhost",
+    "database": "yt_node_main",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+      "src/entity/*.js"
+    ],
+    "cli": {
+      "entitiesDir": "src/entity"
+    }
+  }
+  
